@@ -24,6 +24,7 @@ const UserSchema = new mongoose.Schema({
   },
   expireDate1: {
     type: Date,
+    
     default: Date.now,
   },
   expireDate2: {
